@@ -1,0 +1,24 @@
+{
+  "name": "polymer-sample",
+  "version": "0.0.0",
+  "homepage": "https://github.com/simonguest/polymer-sample",
+  "authors": [
+    "Simon Guest <me@simonguest.com>"
+  ],
+  "description": "polymer-sample",
+  "moduleType": [
+    "node"
+  ],
+  "license": "Apache 2",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "core-component-page": "Polymer/core-component-page#^0.5.0"
+  }
+}

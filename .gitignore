@@ -2,3 +2,4 @@ node_modules
 .idea
 .floo
 .flooignore
+bower_components
