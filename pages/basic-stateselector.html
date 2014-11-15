@@ -1,0 +1,15 @@
+<link rel="import" href="/bower_components/polymer/polymer.html">
+
+<polymer-element name="hello-simon">
+    <template>
+        <button on-click="{{go}}">Hello World</button>
+    </template>
+    <script>
+        Polymer({
+
+            go: function(){
+                console.log('you clicked me!');
+            }
+        })
+    </script>
+</polymer-element>
