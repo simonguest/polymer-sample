@@ -1,6 +1,20 @@
 <!DOCTYPE html>
-<head>
-</head>
-<body>
-<h1>This is a h1 header</h1>
-</body>
+<html>
+  <head>
+      <link rel="import" href="basic-stateselector.html">
+  </head>
+  <body>
+    <h1>State Selector Demo</h1>
+    <basic-stateselector id="states"
+                         selectText="Please select..."
+                         defaultState="CA"
+                         removeSelectValue="true"></basic-stateselector>
+  </body>
+<script>
+    var states = document.getElementById('states');
+    states.addEventListener('stateChanged', function(e) {
+        console.log('state was changed to '+ e.detail.state);
+    });
+</script>
+</html>
+

@@ -6,6 +6,7 @@ app.use(function(req, res, next){
   next();
 });
 
+app.use('/bower_components', express.static(__dirname+'/bower_components'));
 app.use(express.static(__dirname + '/pages'));
 
 var server = app.listen(4000, function () {
